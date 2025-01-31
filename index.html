@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub to CodeSandbox</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+      width: 300px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="repoUrl" placeholder="Paste GitHub repo URL" />
+  <button id="redirectBtn">Open in CodeSandbox</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
